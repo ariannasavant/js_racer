@@ -6,39 +6,20 @@
     differences in how form elements appear between Firefox and IE
     See: http://necolas.github.com/normalize.css/
   -->
-  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <!--
+    application.css is where you put your styles
+  -->
+  <link rel="stylesheet" href="/css/application.css">
+  <link rel="stylesheet" href="/css/main.css">
 
-  <!-- Put your challenge-specific CSS in here -->
-  <link rel="stylesheet" href="main.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
-  <script src="racer.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script src="/js/application.js"></script>
+  <script src="/js/racer.js"></script>
+
   <title></title>
 </head>
-
-<table class="racer_table">
-  <tr id="player1_track">
-    <td class="active">1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-    <td>1</td>
-  </tr>
-  <tr id="player2_track">
-    <td class="active">2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-    <td>2</td>
-  </tr>
-</table>
+<body>
+  <%= yield %>
+</body>
 </html>
