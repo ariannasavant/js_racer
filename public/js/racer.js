@@ -54,7 +54,6 @@
   }
 
   function onKeyup(event) {
-
     if (event.keyCode === "P".charCodeAt(0)) {
       // var stopwatch1 = Stopwatch.new
       updatePlayerPosition('#player1_track');

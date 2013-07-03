@@ -9,3 +9,5 @@
 .racer_table td.active {
   background-color: blue;
 }
+
+.results { display: none;}
